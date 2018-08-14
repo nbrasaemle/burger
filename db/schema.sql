@@ -9,3 +9,6 @@ burger_name VARCHAR(100) NOT NULL,
 devoured BOOLEAN NOT NULL,
 PRIMARY KEY (id)
 );
+
+alter table burgers 
+modify devoured boolean not null default 0;
